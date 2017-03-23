@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zhuyl.andyfirstblood.recorddemo.MainActivity">
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始录音"
+        android:id="@+id/start_record"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结束录音"
+        android:id="@+id/end_record"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="录制pcm文件"
+        android:id="@+id/start_pcm_record"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
